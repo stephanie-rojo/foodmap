@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FoodMap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+
+<!-- creando vista splash-->
+    <header class="text-center">
+
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Foodmap</h1>
+          </div>
+
+      </div>
+    </header>
+
+    <!--creando vista principal-->
+    <section id="main-fund " class="text-center">
+
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Foodmap</h1>
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <hr>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <iframe  class="mapcity"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.941608687654!2d-70.63951309999999!3d-33.41710665!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512591544421"  frameborder="0" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h3>Comida cerca de ti</h3>
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Filtrar restaurante
+                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">Todo</a></li>
+                  <li><a href="#">Comida Peruana</a></li>
+                  <li><a href="#">Sushi</a></li>
+                  <li><a href="#">Comida Natural</a></li>
+                  <li><a href="#">Hamburguesas</a></li>
+                  <li><a href="#">Pizza</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-xs-4 columna-1 "category="peruana">
+                <img class="ceviche"src="assets/img/ceviche.jpg" alt="">
+
+              </div>
+
+              <div class="col-xs-4 columna-2" category="sushi">
+                <img class="sushi "src="assets/img/sushi.jpg" alt="">
+
+              </div>
+
+              <div class="col-xs-4 columna-3" category="natural">
+                <img class="natural "src="assets/img/natural.jpg" alt="">
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-xs-6 columna-4"  category="hamburguesas">
+              <img class="hamburguesas "src="assets/img/hamburguesas.jpg" alt="">
+
+            </div>
+
+            <div class="col-xs-6 columna 5" category="pizza">
+              <img class="pizza "src="assets/img/pizza.jpg" alt="">
+
+            </div>
+
+          </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+
+  </body>
+</html>
